@@ -1,6 +1,7 @@
 import React from 'react';
 
 const FoodCard = ({ item }) => {
+
     const { image, name, price, recipe } = item;
     return (
         <div>
@@ -19,6 +20,7 @@ const FoodCard = ({ item }) => {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };
